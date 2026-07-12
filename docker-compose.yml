@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  recon-suite:
+    build: .
+    container_name: recon-suite
+    volumes:
+      - ./reports:/app/reports
